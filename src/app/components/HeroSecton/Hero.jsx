@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className='d-flex justify-content-around py-4'>
+    <div className='d-flex justify-content-around py-4 md:flex-col'>
       <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
   <Image src="/medical-logo.png" width={`250`} height={`250`} className="card-img-top" alt="cardone"/>
   <div className="card-body">
