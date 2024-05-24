@@ -10,7 +10,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Medical Bot</h5>
     <p className="card-text">Get quick and accurate answers to your medical queries. Our Medical Bot is here to help you with all your health-related questions.</p>
-    <Link href="https://aidvice-medical.streamlit.app/" className="btn btn-primary">Clear your medical queries</Link>
+    <Link href="https://aidvice-medical.streamlit.app/" target='_blank' className="btn btn-primary">Clear your medical queries</Link>
   </div>
 </div>
 
@@ -19,7 +19,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Legal Adviser</h5>
     <p className="card-text">Get legal advice from our expert Legal Adviser. We can help you navigate through any legal challenges you may face.</p>
-    <Link href="https://aidvice-legal.streamlit.app/" className="btn btn-primary">Visit Our Legal Adviser</Link>
+    <Link href="https://aidvice-legal.streamlit.app/" target='_blank' className="btn btn-primary">Visit Our Legal Adviser</Link>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Career Guidance</h5>
     <p className="card-text">Looking for career advice? Our Career Guidance bot helps you navigate through career choices and provides valuable insights.</p>
-    <Link href="https://aidvice-career.streamlit.app/" className="btn btn-primary">Explore Career Options</Link>
+    <Link href="https://aidvice-career.streamlit.app/" target='_blank' className="btn btn-primary">Explore Career Options</Link>
   </div>
 </div>
     </div>
