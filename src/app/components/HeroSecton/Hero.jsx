@@ -8,27 +8,27 @@ const Hero = () => {
       <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
   <Image src="/medical-logo.png" width={`300`} height={`250`} className="card-img-top" alt="cardone"/>
   <div className="card-body">
-    <h5 className="card-title">Medical Bot</h5>
-    <p className="card-text">Get quick and accurate answers to your medical queries. Our Medical Bot is here to help you with all your health-related questions.</p>
-    <Link href="https://aidvice-medical.streamlit.app/" target='_blank' className="btn btn-primary">Clear your medical queries</Link>
+    <h5 className="card-title">Get Expert Medical Answers</h5>
+    <p className="card-text">Don't wait to see a doctor for minor health concerns. Get quick and accurate answers to your medical queries. Our AI-powered Medical Bot can answer your questions and provide trusted medical information.</p>
+    <Link href="https://aidvice-medical.streamlit.app/" target='_blank' className="btn btn-primary">Get Help Now</Link>
   </div>
 </div>
 
 <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
   <Image src="/carousel-img-1.png" width={`300`} height={`250`} className="card-img-top" alt="cardtwo"/>
   <div className="card-body">
-    <h5 className="card-title">Legal Adviser</h5>
-    <p className="card-text">Get legal advice from our expert Legal Adviser. We can help you navigate through any legal challenges you may face.</p>
-    <Link href="https://aidvice-legal.streamlit.app/" target='_blank' className="btn btn-primary">Visit Our Legal Adviser</Link>
+    <h5 className="card-title">Your Financial Assistant</h5>
+    <p className="card-text">Take control of your finances with our Finance Bot. Get personalized advice, manage your budget and expenses, track investments, and ask questions about saving, investing, loans, and more.</p>
+    <Link href="http://localhost:8501/" target='_blank' className="btn btn-primary">Get Started with Your Finances</Link>
   </div>
 </div>
 
 <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
   <Image src="/logo-3.jpg" width={`300`} height={`250`} className="card-img-top" alt="cardthree"/>
   <div className="card-body">
-    <h5 className="card-title">Career Guidance</h5>
-    <p className="card-text">Looking for career advice? Our Career Guidance bot helps you navigate through career choices and provides valuable insights.</p>
-    <Link href="https://aidvice-career.streamlit.app/" target='_blank' className="btn btn-primary">Explore Career Options</Link>
+    <h5 className="card-title">Get Everyday Help</h5>
+    <p className="card-text">Simplify your life with our AI assistant. Ask questions, get directions, clear your queries, and access helpful resources. The General Bot is here to make your day easier.</p>
+    <Link href="https://aidvice-career.streamlit.app/" target='_blank' className="btn btn-primary">Make Life Easier</Link>
   </div>
 </div>
     </div>
