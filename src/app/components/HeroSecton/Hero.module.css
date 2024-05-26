@@ -1,0 +1,18 @@
+/* Hero.module.css */
+.heroContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .heroContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      margin-bottom: 1rem;
+    }
+  }
+  

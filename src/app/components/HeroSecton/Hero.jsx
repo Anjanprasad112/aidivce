@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <div className='d-flex justify-content-around py-4 md:flex-col'>
-      <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
+    <div className={styles.heroContainer}>
+      <div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`,margin:`20px 0`}}>
   <Image src="/medical-logo.png" width={`300`} height={`250`} className="card-img-top" alt="cardone"/>
   <div className="card-body">
     <h5 className="card-title">Get Expert Medical Answers</h5>
@@ -14,7 +15,7 @@ const Hero = () => {
   </div>
 </div>
 
-<div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
+<div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`,margin:`20px 0`}}>
   <Image src="/carousel-img-1.png" width={`300`} height={`250`} className="card-img-top" alt="cardtwo"/>
   <div className="card-body">
     <h5 className="card-title">Your Financial Assistant</h5>
@@ -23,7 +24,7 @@ const Hero = () => {
   </div>
 </div>
 
-<div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`}}>
+<div className="card rounded" style={{width: `20rem`,border:`1px solid #0D6EFD`,margin:`20px 0`}}>
   <Image src="/logo-3.jpg" width={`300`} height={`250`} className="card-img-top" alt="cardthree"/>
   <div className="card-body">
     <h5 className="card-title">Get Everyday Help</h5>
