@@ -13,14 +13,14 @@ const NavbarComp = () => {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" href="#">Home</Link>
+          <Link className="nav-link" aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" href="/about">About</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link className="nav-link" href="/contact">Contact Us</Link>
-        </li>
+        </li> */}
         
       </ul>
     </div>

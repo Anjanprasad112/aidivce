@@ -6,7 +6,7 @@ const CarouselComp = () => {
       <div className='container-fluid text-center mt-4 p-4 '>
 
       <h1 className='display-4 font-weight-bold text-primary'>
-        <b>AiDvice</b></h1>
+        <b>AiDVISE</b></h1>
       <p className='lead text-secondary'>All-in-One Search Hub</p>
       </div>
     </div>

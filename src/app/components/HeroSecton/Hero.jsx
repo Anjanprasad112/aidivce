@@ -19,7 +19,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Your Financial Assistant</h5>
     <p className="card-text">Take control of your finances with our Finance Bot. Get personalized advice, manage your budget and expenses, track investments, and ask questions about saving, investing, loans, and more.</p>
-    <Link href="http://localhost:8501/" target='_blank' className="btn btn-primary">Get Started with Your Finances</Link>
+    <Link href="http://localhost:8900/" target='_blank' className="btn btn-primary">Get Started with Your Finances</Link>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Get Everyday Help</h5>
     <p className="card-text">Simplify your life with our AI assistant. Ask questions, get directions, clear your queries, and access helpful resources. The General Bot is here to make your day easier.</p>
-    <Link href="https://aidvice-career.streamlit.app/" target='_blank' className="btn btn-primary">Make Life Easier</Link>
+    <Link href="http://localhost:8910/" target='_blank' className="btn btn-primary">Make Life Easier</Link>
   </div>
 </div>
     </div>

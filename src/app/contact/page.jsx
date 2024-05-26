@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 
 const Contact = () => {
   return (
-    <div>
-        this is Contact page
+    <div className="container">
+        
     </div>
   )
 }

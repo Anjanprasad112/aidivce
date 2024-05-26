@@ -6,7 +6,6 @@ import NavbarComp from "./components/Navbar/NavbarComp";
 export default function Home() {
   return (
    <div>
-    <NavbarComp/>
     <CarouselComp/>
     <Hero/>
    </div>
