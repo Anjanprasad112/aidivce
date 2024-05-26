@@ -9,7 +9,7 @@ const Hero = () => {
   <Image src="/medical-logo.png" width={`300`} height={`250`} className="card-img-top" alt="cardone"/>
   <div className="card-body">
     <h5 className="card-title">Get Expert Medical Answers</h5>
-    <p className="card-text">Don't wait to see a doctor for minor health concerns. Get quick and accurate answers to your medical queries. Our AI-powered Medical Bot can answer your questions and provide trusted medical information.</p>
+    <p className="card-text">Don&apos;t wait to see a doctor for minor health concerns. Get quick and accurate answers to your medical queries. Our AI-powered Medical Bot can answer your questions and provide trusted medical information.</p>
     <Link href="https://aidvice-medical.streamlit.app/" target='_blank' className="btn btn-primary">Get Help Now</Link>
   </div>
 </div>
