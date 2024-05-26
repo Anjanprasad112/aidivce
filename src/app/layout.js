@@ -6,7 +6,7 @@ import NavbarComp from "./components/Navbar/NavbarComp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AiDvice",
+  title: "AiDVISE",
   description: "All-in-One Search Hub",
 };
 
