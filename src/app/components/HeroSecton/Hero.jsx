@@ -29,7 +29,7 @@ const Hero = () => {
   <div className="card-body">
     <h5 className="card-title">Get Everyday Help</h5>
     <p className="card-text">Simplify your life with our AI assistant. Ask questions, get directions, clear your queries, and access helpful resources. The General Bot is here to make your day easier.</p>
-    <Link href="http://localhost:8910/" target='_blank' className="btn btn-primary">Make Life Easier</Link>
+    <Link href="https://general-aidvise.streamlit.app/" target='_blank' className="btn btn-primary">Make Life Easier</Link>
   </div>
 </div>
     </div>
